@@ -1,0 +1,276 @@
+.projectCard {
+  .ant-card-body {
+    padding: 5px 10px;
+    cursor: auto;
+  }
+
+  .ant-card-actions > li {
+    margin: 6px 0;
+  }
+
+  .ant-card-cover {
+    overflow: hidden;
+    height: 163px;
+  }
+}
+
+.projectCard {
+  .ant-card-actions > li > span {
+    width: 100%;
+  }
+}
+
+.ant-layout-footer{
+  width: 100%;
+  height: 80px;
+}
+
+
+.naverIdLogin1 {
+  cursor: pointer;
+  // width: 34px;
+  // height: 34px;
+  background-image: url('../assets/naver.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position-x: center;
+  background-position-y: initial;
+  #naverIdLogin_loginButton {
+    width: 100%; 
+    display: hidden; 
+  }
+  img {
+    width: 100%;
+    height: 100%; 
+    visibility: hidden; 
+  }
+}
+.naverIdLogin {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  background-image: url('../assets/naver.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position-x: center;
+  background-position-y: initial;
+  #naverIdLogin_loginButton {
+    width: 100%; 
+    display: hidden; 
+  }
+  img {
+    width: 100%;
+    height: 100%; 
+    visibility: hidden; 
+  }
+}
+.naverH{
+  background-image: url('../assets/icon/naver1.png');
+}
+.naverN{
+  background-image: url('../assets/icon/naver.png');
+} 
+
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  border-style: none;
+}
+
+html,
+body {
+  height: auto;
+  /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+  -ms-overflow-style: none;
+  /*火狐下隐藏滚动条*/
+  overflow: -moz-scrollbars-none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.layout.ant-layout {
+  .ant-layout-header {
+    height: 60px;
+    line-height: 60px;
+    background: #191919;
+  }
+
+  .ant-layout-content {
+    // 还需修改
+    min-height: calc(100vh - 90px);
+  }
+
+  .ant-layout-footer {
+    padding: 0;
+  }
+
+  .header {
+    height: 60px;
+    padding: 0px 30px;
+    position: relative;
+
+    .header-index-wide {
+      margin: auto;
+      padding-left: 0;
+      display: flex;
+      height: 60px;
+
+      .header-index-left {
+        display: flex;
+        flex: 0 1 auto;
+        flex-wrap: nowrap;
+        height: 60px;
+        position: relative;
+        align-items: center;
+
+        a {
+          display: flex;
+          align-items: center;
+          flex-wrap: nowrap;
+
+          img {
+            height: 38px;
+          }
+
+          // h1 {
+          //   color: #fff;
+          //   font-size: 20px;
+          //   margin: 0 0 0 5px;
+          //   font-weight: bold;
+          // }
+        }
+
+        .headerBtn {
+          font-size: 16px;
+          font-size: 500;
+        }
+      }
+
+      .header-index-right {
+        height: 60px;
+        overflow: hidden;
+
+        .content-box {
+          float: right;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .action {
+            display: flex;
+            align-items: center;
+            color: #fff;
+
+            .avatar {
+              background-color: palegreen;
+            }
+          }
+
+          .global-lang {
+            margin-left: 10px;
+          }
+        }
+
+        &.index-left-header {
+          .buttongroup {
+            float: right;
+          }
+        }
+      }
+    }
+  }
+
+  &.mobile {
+    .ant-layout-header {
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      background: rgba(25, 25, 25, 1);
+    }
+
+    .global-lang {
+      margin-right: 10px;
+    }
+
+    .header {
+      height: 45px;
+      padding: 0px 20px;
+
+      .header-index-wide {
+        height: 45px;
+
+        .header-index-left {
+          height: 45px;
+          a {
+            img {
+              height: 20px;
+            }
+
+            h1 {
+              display: none;
+            }
+          }
+
+          .headerBtn {
+            font-size: 14px;
+            font-size: 400;
+          }
+        }
+
+        .header-index-right {
+          height: 45px;
+
+          .action {
+            .nametag {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 外置的样式控制
+.user-dropdown-menu {
+  span {
+    user-select: none;
+  }
+}
+
+.user-dropdown-menu-wrapper.ant-dropdown-menu {
+  padding: 4px 0;
+
+  .ant-dropdown-menu-item {
+    width: 140px;
+  }
+
+  .ant-dropdown-menu-item > .anticon:first-child,
+  .ant-dropdown-menu-item > a > .anticon:first-child,
+  .ant-dropdown-menu-submenu-title
+    > .anticon:first-child
+    .ant-dropdown-menu-submenu-title
+    > a
+    > .anticon:first-child {
+    min-width: 12px;
+    margin-right: 8px;
+  }
+}
+
+.ant-carousel .slick-list .slick-slide {
+  pointer-events: unset !important;
+}

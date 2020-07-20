@@ -1,0 +1,64 @@
+{
+  "name": "pangsky",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.11.1",
+    "ant-design-vue": "^1.3.16",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "core-js": "^2.6.5",
+    "element-ui": "^2.13.0",
+    "enquire.js": "^2.1.6",
+    "moment": "^2.24.0",
+    "viser-vue": "^2.4.8",
+    "vue": "^2.6.10",
+    "vue-concise-slider": "^3.4.3",
+    "vue-cropper": "^0.4.9",
+    "vue-i18n": "^8.15.0",
+    "vue-ls": "^3.2.1",
+    "vue-material": "^1.0.0-beta-11",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.7.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "axios": "^0.19.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.12.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "mockjs": "^1.0.1-beta3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "description": "pangSky用户控制台，中前台页面，vue\r ,en",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keysama/pangSky-console.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keysama/pangSky-console/issues"
+  },
+  "homepage": "https://github.com/keysama/pangSky-console#readme"
+}
